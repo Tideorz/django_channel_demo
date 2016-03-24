@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{% load staticfiles %}
+	<p>Room Name</p>
+	<p>
+		<lable for="handle">Your Name</label>	
+		<input type='text' id="handle" placeholder="handle"></input>
+	</p>
+	<form id="chat">
+		<table>
+			<tbody></tbody>
+			<tfoot></tfoot>
+		</table>
+	</form>
+{% endblock content %}
+
+
+{% block afterbody %}
+{% comment %} js file put here {% endcomment %}
+{% endblock afterbody %}
